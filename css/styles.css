@@ -1,12 +1,17 @@
-body {
-  text-indent: 40%;
-
+html {
+  background: (image/sakura.jpeg)no-repeat center center fixed;
+  background-size: cover;
 }
+
 img {
   width:500px;
   height: auto;
   padding-left: 30%;
 }
-input {
-  text-indent: 40%
+
+
+}
+input.search {
+  width:200em;
+  height:20em;
 }
