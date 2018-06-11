@@ -1,10 +1,11 @@
 body {
   background: url(../image/sakura.jpeg)no-repeat center center fixed;
   background-size: cover;
+  margin-top: 3%;
 }
 
 img {
-  width:500px;
+  width: 100%;
   height: auto;
   padding-left: 30%;
 }
@@ -13,8 +14,14 @@ img.bg {
   min-width: 1024px;
 }
 
-}
 input.search {
   width:200em;
   height:20em;
+}
+.text {
+  background-color: white;
+  opacity: 0.8
+}
+img {
+  margin-top: 10px;
 }

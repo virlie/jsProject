@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head
+  <head>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" text="text/css" media="all">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-    <script
-   src="https://code.jquery.com/jquery-3.3.1.js"
-   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-   crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-   <script src="js/scripts.js"></script>
-   <title>Who is your Anime Waifu?</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Who is your Anime Waifu?</title>
    </head>
    <body>
-     <div class="w-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text">
+          <h1>Who is your Anime Waifu?</h1>
+          <h4>To find out, let's answer a few questions.</h4>
 
-
-
-    <h2>Who is your Anime Waifu?</h2>
-    <div class="container-fluid">
-      <h3>To find out, let's answer a few questions.</h3>
-      <img src="image/girlLot.jpeg" id="outfits" alt="female characters in japanese animation">
-      <p>What would your waifu be wearing?</p>
-      <form class="choices" action="index.html" method="post">
-        <select name="outfit" width="10">
-          <option value="Sweet">Sweet Lolita Costume</option>
-          <option value="Proper">Private Catholic High School</option>
-          <option value="BadAss">Battle Gear</option>
-          <option value="GND">Anything!</option>
-        </select>
-        <br><br>
-        <div class="w-50 p-3">
-          <img src="image/blondeHair.jpeg" alt="female anime with blonde hair"></div>
-          <p>What would her hair color be?</p>
-            <form class="choices" action="index.html" method="post">
-              <select name="hairColor">
-                <option value="Sweet">Pink or Blue</option>
-                <option value="Proper">Brunette</option>
-                <option value="BadAss">Black or Silver</option>
-                <option value="GND">Blonde</option>
-              </select>
-            </form>
-          </div>
+          <p>What would your waifu be wearing?</p>
+          <form class="choices" action="index.html" method="post">
+            <select name="outfit" width="10">
+              <option value="Sweet">Sweet Lolita Costume</option>
+              <option value="Proper">Private Catholic High School</option>
+              <option value="BadAss">Battle Gear</option>
+              <option value="GND">Anything!</option>
+            </select>
+            <br><br>
+            <p>What would her hair color be?</p>
+            <select name="hairColor">
+              <option value="Sweet">Pink or Blue</option>
+              <option value="Proper">Brunette</option>
+              <option value="BadAss">Black or Silver</option>
+              <option value="GND">Blonde</option>
+            </select>
+            <br><br>
+            <button type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+        <div class="col-md">
+          <img src="image/girlLot.jpeg" id="outfits" alt="female characters in japanese animation"><br>
+          <img src="image/blondeHair.jpeg" alt="female anime with blonde hair">
         </div>
         <br><br>
-      <input type="submit" id="search" value="search" class="search" />
-    </form>
+      </div>
+    </div>
   </body>
 </html>
