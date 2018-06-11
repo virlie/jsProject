@@ -19,23 +19,60 @@
 
           <p>What would your waifu be wearing?</p>
           <form class="choices" action="index.html" method="post">
-            <select name="outfit" width="10">
-              <option value="Sweet">Sweet Lolita Costume</option>
-              <option value="Proper">Private Catholic High School</option>
-              <option value="BadAss">Battle Gear</option>
-              <option value="GND">Anything!</option>
+            <select name="outfit" id="question1">
+              <option value="3">Sweet Lolita Costume</option>
+              <option value="1">Private Catholic High School</option>
+              <option value="2">Battle Gear</option>
             </select>
             <br><br>
             <p>What would her hair color be?</p>
-            <select name="hairColor">
-              <option value="Sweet">Pink or Blue</option>
-              <option value="Proper">Brunette</option>
-              <option value="BadAss">Black or Silver</option>
-              <option value="GND">Blonde</option>
+            <select name="hairColor" id="question2">
+              <option value="1">Nothing Boring</option>
+              <option value="3">Brunette</option>
+              <option value="2">Black or Silver</option>
+            </select>
+            <br><br>
+            <p>What would her power be?</p>
+            <select name="power" id="question3">
+              <option value="2">The power to strike any foe down with one shot</option>
+              <option value="1">Overwhelming magical force</option>
+              <option value="3">The power to heal any wound</option>
+            </select>
+            <br><br>
+            <p>What personality do you like?</p>
+            <select name="personality" id="question4">
+              <option value="3">Shy and timid</option>
+              <option value="2">Bold and seductive</option>
+              <option value="1">Dignified and refined</option>
+            </select>
+            <br><br>
+            <p>What is her lineage?</p>
+            <select name="lineage" id="question5">
+              <option value="2">Half-and-half, in between</option>
+              <option value="3">Nobility</option>
+              <option value="2">Low born</option>
+            </select>
+            <br><br>
+            <p>What should their element be?</p>
+            <select name="element" id="question6">
+              <option value="1">Fire, hot as the sun</option>
+              <option value="3">Water, deep and wide as the sea</option>
+              <option value="2">Air, relentless at the storm</option>
+            </select>
+            <br><br>
+            <p>What is your favorite ice cream flavor?</p>
+            <select name="iceCream" id="question7">
+              <option value="2">Chocolate</option>
+              <option value="3">Vanilla</option>
+              <option value="1">Strawberry</option>
             </select>
             <br><br>
             <button type="submit" name="submit">Submit</button>
           </form>
+          <br id="output-field">
+          <div id="output">
+
+          </div>
         </div>
         <div class="col-md">
           <img src="image/girlLot.jpeg" id="outfits" alt="female characters in japanese animation"><br>
